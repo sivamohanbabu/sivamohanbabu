@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sivamohanbabu
 - 👀 I’m interested in ...Coding
-- 🌱 I’m currently learning ...Fullstack Development
+- 🌱 I’m currently Working as a Master Trainer at Edunet Foundation.
 - 💞️ I’m looking to collaborate on ...Business Services
 - 📫 How to reach me sivamohanbabu@gmail.com
 
