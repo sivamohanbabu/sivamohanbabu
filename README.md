@@ -32,7 +32,7 @@ Here is the updated `README.md` content, specifically tailored to include all th
 
 <br />
 
-I'm a **Full Stack Engineer**, **Data Analytics Expert**, and **AI Specialist**, currently working as a **Master Trainer at Edunet Foundation (EY GDS)**. I specialize in building scalable web applications, architecting AI-driven solutions (Generative AI, RAG, AI Agents), and driving large-scale tech skilling initiatives nationwide.
+I'm a **Full Stack Engineer**, **Data Analytics Expert**, and **AI Specialist**, currently working as a **Corporate Trainer.Ex- (EY GDS),Mphasis**. I specialize in building scalable web applications, architecting AI-driven solutions (Generative AI, RAG, AI Agents), and driving large-scale tech skilling initiatives nationwide.
 
 ### 🔭 A Little About Me:
 - 💻 **Expertise:** MERN Stack, Python, Data Analytics, Generative AI & Machine Learning
