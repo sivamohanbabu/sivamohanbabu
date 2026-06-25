@@ -1,29 +1,3 @@
-Ran command: `python -c "
-import zipfile
-import xml.etree.ElementTree as ET
-
-def extract_text_from_docx(docx_path):
-    try:
-        doc = zipfile.ZipFile(docx_path)
-        xml_content = doc.read('word/document.xml')
-        doc.close()
-        tree = ET.XML(xml_content)
-        NAMESPACE = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
-        paragraphs = []
-        for paragraph in tree.iter(NAMESPACE + 'p'):
-            texts = [node.text for node in paragraph.iter(NAMESPACE + 't') if node.text]
-            if texts:
-                paragraphs.append(''.join(texts))
-        return '\n'.join(paragraphs)
-    except Exception as e:
-        return str(e)
-
-print(extract_text_from_docx(r'c:\Users\sivav\Downloads\Siva_Mohan_Babu_Senior_Technical_Resume (1).docx'))
-"`
-
-Here is the updated `README.md` content, specifically tailored to include all the technical skills, frameworks, and domains mentioned in your resume (MERN stack, Flutter, Generative AI, RAG Architectures, Power BI, UI/UX, Edge AI, etc.):
-
-```markdown
 # Hi there, I'm Siva Veludurthi! 👋
 
 <div align="center">
@@ -32,7 +6,7 @@ Here is the updated `README.md` content, specifically tailored to include all th
 
 <br />
 
-I'm a **Full Stack Engineer**, **Data Analytics Expert**, and **AI Specialist**, currently working as a **Corporate Trainer.Ex- (EY GDS),Mphasis**. I specialize in building scalable web applications, architecting AI-driven solutions (Generative AI, RAG, AI Agents), and driving large-scale tech skilling initiatives nationwide.
+I'm a **Full Stack Engineer**, **Data Analytics Expert**, and **AI Specialist**, currently working as a **Corporate Trainer and Worked at (EY GDS-EY NextGen) and Mphasis Limited as Delv Software Engineer**. I specialize in building scalable web applications, architecting AI-driven solutions (Generative AI, RAG, AI Agents), and driving large-scale tech skilling initiatives nationwide.
 
 ### 🔭 A Little About Me:
 - 💻 **Expertise:** MERN Stack, Python, Data Analytics, Generative AI & Machine Learning
@@ -97,4 +71,3 @@ I'm a **Full Stack Engineer**, **Data Analytics Expert**, and **AI Specialist**,
 <div align="center">
   <i>"Committed to continuous learning, building AI-driven solutions, and driving impact through technology."</i>
 </div>
-```
